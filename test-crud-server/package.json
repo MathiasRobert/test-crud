@@ -13,6 +13,7 @@
     "@types/bluebird": "^3.5.32",
     "@types/jest": "^26.0.14",
     "@types/node": "^14.11.2",
+    "@types/sequelize": "^4.28.9",
     "@types/validator": "^13.1.0",
     "apollo-server-express": "^2.18.1",
     "body-parser": "^1.19.0",
