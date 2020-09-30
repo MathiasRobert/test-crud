@@ -40,6 +40,7 @@ function ProductCardForm({ product, register, errors }: Props) {
             label="Description"
             variant="outlined"
             type="text"
+            multiline
             rows={4}
             fullWidth
             InputLabelProps={{
