@@ -14,6 +14,7 @@ if (process.env.DATABASE_URL) {
     host:
       "postgres://fbuerfllxlgefc:4be68ae7ec2fb4197c12e071804012dae3aa1b0e4eae51ec241de07bab521315@ec2-54-90-68-208.compute-1.amazonaws.com:5432/d5h8bn8r58ebtc",
     logging: true, //false
+    models: [Product],
   });
 } else {
   sequelize = new Sequelize({
