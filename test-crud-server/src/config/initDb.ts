@@ -4,6 +4,9 @@ import { Product } from "../models/product";
 const env = process.env.NODE_ENV || "development";
 const config = require(__dirname + "/../config/config.json")[env];
 
+console.log(env);
+console.log(config);
+
 export const sequelize = new Sequelize({
   database: config.database,
   dialect: config.dialect,

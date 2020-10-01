@@ -11,8 +11,6 @@ const client = new ApolloClient({
   cache: new InMemoryCache(),
 });
 
-console.log("hey");
-
 const TestCrud = () => (
   <BrowserRouter>
     <ApolloProvider client={client}>
