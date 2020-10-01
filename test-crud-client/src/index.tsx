@@ -7,7 +7,7 @@ import { BrowserRouter } from "react-router-dom";
 import App from "./App";
 
 const client = new ApolloClient({
-  uri: "https://my-app-server.herokuapp.com/graphql",
+  uri: process.env.API_URL || "http://localhost:4000/graphql",
   cache: new InMemoryCache(),
 });
 
