@@ -1,6 +1,7 @@
 import express from "express";
 import { ApolloServer } from "apollo-server-express";
 import { makeExecutableSchema } from "graphql-tools";
+import cors from "cors";
 
 import { typeDefs } from "./schema";
 import { resolvers } from "./resolvers";
@@ -12,6 +13,7 @@ const server = new ApolloServer({ schema, resolvers });
 
 const app = express();
 server.applyMiddleware({ app });
+app.use(cors());
 
 initDb();
 
