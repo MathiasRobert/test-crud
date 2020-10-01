@@ -9,9 +9,8 @@
   "production": {
     "username": "bwshisejpkzghh",
     "password": "0dae90dc5dbe620b1ab3c22d992d004cbb6198890d3c6fc3c847584aaa754a3a",
-    "database": "DATABASE_URL",
+    "database": "postgres://bwshisejpkzghh:0dae90dc5dbe620b1ab3c22d992d004cbb6198890d3c6fc3c847584aaa754a3a@ec2-54-158-122-162.compute-1.amazonaws.com:5432/deg2f6fpnesqkl",
     "host": "ec2-54-158-122-162.compute-1.amazonaws.com",
-    "dialect": "postgres",
-    "use_env_variable": "DATABASE_URL"
+    "dialect": "postgres"
   }
 }
